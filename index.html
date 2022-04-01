@@ -257,7 +257,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="contact_me.php" method="post" name="sentMessage" id="contactForm" novalidate>
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -273,7 +273,7 @@
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button type="submit" value="send">Send message</button>
                         </div>
                     </form>
                 </div>
