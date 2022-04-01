@@ -257,7 +257,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="https://formspree.io/f/xwkynwed" method="post">
+                    <form id="contactform" action="https://formspree.io/f/xwkynwed" method="post">
                         <div class="fields">
                             <div class="field name">
                                 <label for="name">
@@ -273,11 +273,9 @@
                         <div class="field">
                             <input type="text" placeholder="Subject" name="subject" id="subject" required>
                         </div>
-                        <label for="message">
                         <div class="field textarea">
                             <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
                         </div>
-                        </label>
                         <div class="button-area">
                             <button type="submit" value="Send">Send message</button>
                         </div>
